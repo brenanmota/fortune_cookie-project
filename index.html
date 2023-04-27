@@ -13,14 +13,30 @@
 </head>
 <body>
   <main>
-    <h1>What's your luck today?</h1>
-    <p>Open the cookie and find out!</p>
+    <div class="screen1 hide">
+      <h1>What's your luck today?</h1>
+      <p>Open the cookie and find out!</p>
 
-    <form>
-      <button>
-        <img src="images/cookie.svg" alt="fortune cookie cartoon">
+      <form>
+        <button class="cookie">
+          <img src="images/cookie.svg" alt="fortune cookie cartoon">
+        </button>
+      </form>
+    </div>
+
+    <div class="screen2">
+      <h1>Here's your luck for today:</h1>
+      <p class="luckSentence">
+        If someone is so tired that they can't give you a smile, leave them yours.
+      </p>
+
+      <img id="openedCookie" src="images/opened-cookie.svg" alt="opened cookie">
+
+      <button class="return">
+        <p class="returnText">Open another cookie</p>
       </button>
-    </form>
+    </div>
+
   </main>
 </body>
 </html>
