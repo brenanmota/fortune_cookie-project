@@ -13,18 +13,19 @@
 </head>
 <body>
   <main>
-    <div class="screen1 hide">
+    <div class="screen1 ">
       <h1>What's your luck today?</h1>
       <p>Open the cookie and find out!</p>
 
       <form>
-        <button class="cookie">
+        <button id="btnOpen">
           <img src="images/cookie.svg" alt="fortune cookie cartoon">
         </button>
       </form>
+
     </div>
 
-    <div class="screen2">
+    <div class="screen2 hide">
       <h1>Here's your luck for today:</h1>
       <p class="luckSentence">
         If someone is so tired that they can't give you a smile, leave them yours.
@@ -32,11 +33,13 @@
 
       <img id="openedCookie" src="images/opened-cookie.svg" alt="opened cookie">
 
-      <button class="return">
+      <button id="btnReturn">
         <p class="returnText">Open another cookie</p>
       </button>
     </div>
 
   </main>
+
+  <script src="./main.js"></script>
 </body>
 </html>

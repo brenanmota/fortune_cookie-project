@@ -56,7 +56,7 @@ p {
   margin-top: 2.5rem;
 }
 
-.cookie {
+#btnOpen {
   background: #FFFFFF;
   border: none;
   align-items: center;
@@ -85,7 +85,7 @@ p {
 
 }
 
-.return {
+#btnReturn {
   padding: 1.6rem;
 
   width: 18rem;
@@ -97,7 +97,7 @@ p {
   cursor: pointer;
 }
 
-.return:hover{
+#btnReturn:hover{
   background: #cb7c0d;
 }
 
